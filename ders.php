@@ -15,7 +15,7 @@
 //echo "$veri PHP<br>";
 //echo "$veri PHP<br>";
 //echo "{$veri} PHP<br>";
-#echo "${veri} PHP" ;
+//#echo "${veri} PHP" ;
 
 # var_dump() fonksiyonu PHP'de değişkenlerin ve verilerin türünü öğrenmekte kullanılır.
 
@@ -74,11 +74,11 @@
 //echo $toplam ;
 
 # girilen nota göre vize ve final notunu alan ve kullanıcın ismini ekrana yazdıran PHP programı.
-$ad = "Hüdayi Emre Sarıça";
-$vize = 100;
-$final= 100;
-$ortalama = ($vize*0.4) + ($final*0.6);
-echo  "{$ad} isimli ögrencinin vize notu {$vize},final notu {$final} ve  ortalaması ", $ortalama , "dür";
+//$ad = "Hüdayi Emre Sarıça";
+//$vize = 100;
+//$final= 100;
+// $ortalama = ($vize*0.4) + ($final*0.6);
+//echo  "{$ad} isimli ögrencinin vize notu {$vize},final notu {$final} ve  ortalaması ", $ortalama , "dür";
 
 
 
