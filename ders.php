@@ -292,7 +292,7 @@
 //echo "kadınlar için askerlik yok";
 //}
 
-# 
+
 
 
 
