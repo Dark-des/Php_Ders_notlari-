@@ -291,6 +291,220 @@
 //else{
 //echo "kadınlar için askerlik yok";
 //}
+# SWİTCH CASE 
+#  bu kod C# ta olduğu gibi (if-else) karar yapısıdır.
+
+//switch(ifade){
+//case label1 : 
+# kod blogu
+//break ;
+# kod blogu
+//case label2:
+# kod blogu
+//break;
+//case label3 :
+# kod blogu
+//break;
+//default:
+# kod blogu }
+
+# favori rengi switch case kullanarak bulma.
+
+//$favcolor = "siyah";
+//switch ($favcolor) {
+//case "siyah":
+//echo "Senin favori rengin siyah!"; 
+//break;
+//case "yeşil":
+//echo "Senin favori rengin yeşil!"; 
+//break;
+//case "kırmızı":
+//echo "Senin favori rengin kırmızı!";
+//break;
+//default:
+//echo "Favori rengin siyah, kırmızı ya da yeşil değil.";
+//}
+
+#yaz meyvesi mi kış meyvesi mi olduğunu bulma .
+
+//$meyve="çilek";
+//switch($meyve){
+//case "çilek":
+//echo " bu bir yaz meyvesi ";
+//break;
+//case "mandalina ":
+//echo "bu bir kış meyvesi ";
+//break ;
+//default:
+//echo" yazdıklarının hiçbiri meyve değil ! ";
+//}
+
+#rakamları girilen sayıya göre sınıflandırma
+
+//$rakam="bir";
+//switch($rakam){
+//case "bir":
+//echo " rakam :1  ";
+//break;
+//case "iki ":
+//echo "rakam : 2 ";
+//break ;
+//default:
+//echo" yazdıklarının hiçbiri rakam değil ! ";
+//}
+
+#sayının tek veya çift olduğuna karar veren program.
+
+//$sayi= "bu sayı çift";
+//switch($sayi%2){
+//case "2":
+//echo "bu sayı çift";
+//break ;
+//case "1":
+//echo "bu sayı tek";
+//break ; 
+//default:
+//echo "bu sayı sıfır";
+//}
+
+#ÖRNEKLER 
+
+# sayının negatif veya pozitif olma durumunu bulma
+
+//  $deger= -12;
+//  if ($deger > 0 ) {
+//    echo "değer pozitif ";
+//  }
+// elseif ($deger < 0) {
+//  echo "değer negatif ";
+// }
+// //else {
+//  echo"değer sıfırdan büyük veya küçük olmalı ";
+// }
+
+# üçgenin alanını hesaplayıp ekrana yazdıran kod
+
+// $taban = 3;
+// $yukseklik = 10 ;
+// $alan = ($taban * $yukseklik)/ 2;
+// echo "diktörtgenin alanı :". $alan;
+
+# diktörtgenin alanını ve çevresini hesaplayan kod 
+
+// $kısa_kenar = 7;
+// $uzun_kenar = 15;
+// $alan = $kısa_kenar * $uzun_kenar;
+// $cevre = ($kısa_kenar*2) +( $uzun_kenar*2);
+// echo " dikdörgen alanı : ".$cevre  , "dikdörtgeninin alanı: ".$alan; 
+
+# kapalı otoparkta park eden personel aracın park ücreti 1 saati 15 tl,misafir aracının park ücreti 20 Tl üç saatten sonra personel aracına %5 indirim uyguluyor.parka giren aracın park ücretini hesaplayan kod 
+
+// $personel_araci = 15 ;
+// $misafir_araci = 20;
+// $personel_indirim = $personel_araci * 0.10 ;
+// $misafir_indirim = $misafir_araci * 0.05;
+// $saat = 5 ; 
+// $misafir_araci *= $saat ;  
+// $personel_araci *=$saat ;
+// if ($saat > 2 )
+// {
+//    $personel_araci = $personel_araci - ($personel_indirim *0.1);
+//    $misafir_araci = $misafir_araci - ($misafir_indirim *0.05);
+// }
+
+//  echo "Personel Ücreti ".$personel_indirim . "<br> Misafir Ücreti : ".$misafir_indirim; 
+
+# For döngüsü 
+
+# sıfırdan 10 a kadar olan kodu yazalım
+
+//  for ($i=0; $i <10 ; $i++) { 
+//    echo $i ,"<br>";
+//  }
+# çift sayıları yazdıran php kodu 
+
+//  for ($i=2; $i < 25; $i+=2) {           # burada kullanılan "i+=2" sayıları ikişer ikişer alır.
+//      echo $i . "<br>";
+//  }
+
+# asal sayıları bulan for kodu  
+
+//  for ($i=2; $i <50  ; $i++) { 
+//    $asal = true ;
+//    for ($j=2; $j < $i ; $j++) { 
+//      if ($i%$j==0) {
+//        $asal = false;
+//        break;
+//      }
+//    }
+//       if ($asal) {
+//        echo $i."<br>";
+//       }
+//  }
+
+# girilen sayının faktöriyelini hesaplayan kodu yazınız.
+
+// $n = 5;
+// $sonuc = 1;
+// for ($i = $n; $i > 0; $i--) {
+//     $sonuc *= $i;
+// }
+// echo "Faktöriyel: " . $sonuc;  
+
+
+# çarpım tablosunu ekrana yazdıran kod.
+
+// for ($i=1; $i <= 10; $i++) { 
+//   for ($j=1; $j <= 10; $j++) { 
+//       echo "$i x $j = ". $i * $j."<br>" ;             
+//   }
+//   echo "<br>";
+// }
+
+# üçgen oluştur  
+
+// $satir = 5;
+// for ($i = 1; $i <= $satir; $i++) {
+//     for ($j = 1; $j <= $satir - $i; $j++) {
+//         echo " &nbsp;&nbsp; ";
+//     }
+//     for ($k = 1; $k <= 2 * $i - 1; $k++) {
+//         echo " *";
+//     }
+//     echo "<br>";
+// }
+ # Yeni kod 
+// $satir = 5;
+// for ($i = 1; $i <= $satir; $i++) {
+//     for ($j = 1; $j <= $satir - $i + 1; $j++) {
+//         echo "&nbsp;";
+//     }
+//     for ($k = 1; $k <= $i - 1; $k++) {
+//         echo "  *";
+//     }
+//     echo "<br>";
+// }
+# 1 ile 100 arasındaki tek sayıların toplamını bul,Çift sayıların toplamını bul ikisinin ortalamasını bul 
+
+// $tek_sayi = 0;
+// $cift_sayi = 0;
+
+// for ($i = 1; $i <= 100; $i++) {
+//     for ($j = 1; $j <= $i; $j++) {
+//         if ($j % 2 == 0) {
+//             $cift_sayi += $j;
+//         } else {
+//             $tek_sayi += $j;
+//         }
+//     }
+// }
+
+// $ortalama = ($tek_sayi + $cift_sayi) / 2;
+
+// echo "1 ile 100 arasındaki tek sayıların toplamı: $tek_sayi\n "."<br>";
+// echo "1 ile 100 arasındaki çift sayıların toplamı: $cift_sayi\n"."<br>";
+// echo "İki toplamın ortalaması: $ortalama\n"."<br>";
+
 
 
 
