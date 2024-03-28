@@ -219,7 +219,15 @@
 #Mantıksal Operatörler
 # Bu operatörler sayesinde birden fazla karşılaştırma denetlenebilir.
 # Bu operatörler şunlardır " :"  ve, "&&" , veya "||" ,değil"!" operatörleridir.
+# gün isminde veri atayın eğer hafta içi ise okul mod değilse tatil mod yazdıran kodu yapınız.
 
+//$history = date("l");
+//if($history == "Saturday" || $history == "Sunday"){
+  //    echo "Tatil mod ";
+  // }
+//else{
+  // echo "okul mod ";
+  //}
 
 # İF-ELSE kullanımı
 //$a = 10;
@@ -263,15 +271,7 @@
 //} else {
   //  echo "İyi geceler!";
  //}
-# gün isminde veri atayın eğer hafta içi ise okul mod değilse tatil mod yazdıran kodu yapınız.
 
-//$history = date("l");
-//if($history == "Saturday" || $history == "Sunday"){
-  //    echo "Tatil mod ";
-  // }
-//else{
-  // echo "okul mod ";
-  //}
 # hız isminde bir değişken tanımlayınız.Eğer hız 130'dan büyükse ekrana yavaş yazılsın 130 a eşit veya küçüse hızınız normal yazdırın.
 
 //$hız =110;
