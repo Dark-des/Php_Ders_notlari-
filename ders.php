@@ -507,6 +507,24 @@
 
 
 
+#Php fonksiyon
+# bu fonksiyon  aranılan harfin içinde olup olmadığını kontrol eder.Eğer harf bulunuyorsa "harf bulundu" eğer bulunmuyorsa "harf bulunmadı " çıktısını verir.
+// function fonksiyon($b = "merhaba", $c = "dünya") {
+//     $harfBulundu = false;
+//     if (strpos($b, "d") !== false) {
+//         echo "harf bulundu" . PHP_EOL;
+//         $harfBulundu = true;
+//     } else {
+//         echo "harf bulunamadı";
+//     }
+//     if (!$harfBulundu) {
+//         $b = "";
+//     }
+//     return $b;
+// }
+
+// echo fonksiyon();
+
 
 
 
