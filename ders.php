@@ -2,7 +2,7 @@
 
 #  "#" işaretinin olduğu yer hatalı kod demektir ayrıca başlık ve açıklama içinde kullanılmıştır.
 #  "//" işareti kod satırlarını yorum satırına çevirmek için kullanılmıştır.
-# bazı editörlerde "<br>" veya " \n " kullanılmaması durumunda " PHP_EOL" kullanarak kod çıktısı bir alta geçirilebilir. 
+# bazı editörlerde "<br>" veya " \n " kullanılamaması durumunda " PHP_EOL" kullanarak kod çıktısı bir alta geçirilebilir. 
 
 # PHP'ye Giriş
 
